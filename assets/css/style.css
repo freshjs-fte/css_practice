@@ -2,6 +2,11 @@ body {
     font-size: 20px;
     font-family: sans-serif;
     color: aqua;
+
+    margin: 0;
+    border: blueviolet 2px solid;
+    border-color: red;
+    border-bottom-width: 5px;
 }
 
 p::first-letter {
