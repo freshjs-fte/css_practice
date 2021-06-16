@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
     color: aqua;
 
+    line-height: 30px;
+    font-weight: bold;
+    background-color: rgb(170, 151, 125);
+
     margin: 0;
     border: blueviolet 2px solid;
     border-color: red;
