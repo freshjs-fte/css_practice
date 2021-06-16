@@ -1,0 +1,10 @@
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: aqua;
+}
+
+p::first-letter {
+    font-size: 26px;
+    color: blue;
+}
