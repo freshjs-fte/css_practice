@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 20px;
     font-family: sans-serif;
@@ -11,9 +15,23 @@ body {
     border: blueviolet 2px solid;
     border-top-color: red;
     border-bottom-width: 5px;
+
+    height: 600px;
 }
 
 p::first-letter {
     font-size: 26px;
     color: blue;
+}
+
+.div {
+    border: 3px solid black;
+
+    max-width: 700px;
+    min-width: 500px;
+    width: 100%;
+
+    min-height: 250px;
+    height: 100%;
+    max-height: 300px;
 }
