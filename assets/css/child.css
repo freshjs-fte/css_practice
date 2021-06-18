@@ -1,0 +1,52 @@
+#tariffs {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+#tariffs td {
+  /* border: 1px solid black; */
+}
+
+#tariffs > thead td:first-child {
+  background-color: blueviolet;
+}
+
+#tariffs > thead td:last-child {
+  background-color: blueviolet;
+  border-top-right-radius: 10px;
+}
+
+#tariffs > thead td:nth-child(1n) {
+  background-color: blueviolet;
+}
+
+#tariff > tfoot > tr a {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+/* 
+odd - нечетный
+even - четный
+*/
+
+/* 
+#7887ab
+#4f628e
+#2e4172
+#162955
+#061539
+
+#dbdbdb
+#e7e7e7
+#f3f3f3
+*/
+
+#tariffs > thead td:nth-child(even) {
+  background-color: crimson;
+}
+
+#tariffs > tbody tr:nth-child(odd) {
+  background-color: darkgreen;
+}

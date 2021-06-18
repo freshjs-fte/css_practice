@@ -1,25 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
-        <!-- <link rel="stylesheet" href="./assets/css/selectors.css"> -->
-        <link rel="stylesheet" href="./assets/css/pseudoclasses.css">
-    </head>
-    <body>
-        <nav class="navigation">
-            <ul class="navlist">
-                <li><a href="http://google.com" target="_blank" class="sitelink" >Link 1</a></li>
-                <li><a href="http://wikipedia.org" target="_blank" class="sitelink">Link 2</a></li>
-                <li><a href="http://yahoo.com" target="_blank" class="sitelink" tabindex="10">Link 3</a></li>
-                <li><a href="http://amazon.com" target="_blank" class="sitelink">Link 4</a></li>
-            </ul>
-        </nav>
-        <button class="sitelink">Button</button>
-
-        <div tabindex="0"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatem accusamus iusto ipsa, tenetur ipsum cum voluptatum laudantium! Hic molestias quia voluptates quis tempora tenetur omnis praesentium officiis voluptatem necessitatibus?</p></div>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/selectors.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/pseudoclasses.css" /> -->
+    <link rel="stylesheet" href="./assets/css/child.css" />
+  </head>
+  <body>
+    <table id="tariffs">
+      <thead>
+        <tr>
+          <td>Choose your plan</td>
+          <td>10</td>
+          <td>30</td>
+          <td>59</td>
+          <td>99</td>
+          <td>30</td>
+          <td>59</td>
+          <td>99</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td><a href="#">start</a></td>
+          <td>start</td>
+          <td>start</td>
+          <td>start</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
 </html>
