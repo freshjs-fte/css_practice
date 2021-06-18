@@ -1,0 +1,42 @@
+:root {
+    font-size: 20px;
+    /* --asd: 6, 21, 57; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navigation {
+    /* background-color: rgba(var(--asd), 0.8); */
+}
+
+.sitelink:not(button) {
+    display: inline-block;
+    color: white;
+    background-color: rosybrown;
+    padding: 10px 20px;
+    border: 4px solid transparent;
+}
+
+.sitelink:visited {
+    color: darkblue;
+}
+
+.sitelink:hover {
+    text-decoration: none;
+    background-color: chocolate;
+    color: cornsilk;
+}
+
+.sitelink:focus {
+    border: 4px solid cyan;
+}
+
+div:focus {
+    background-color: darkkhaki;
+}
+
+.sitelink:active {
+    background-color: darkslateblue;
+}
